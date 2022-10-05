@@ -1,0 +1,47 @@
+.swiper {
+width: 50%;
+}
+
+.institution__logo{
+    width: 10rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+
+.education {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.course__review {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+/* Media Queries for (medium devices) */
+
+@media screen and (max-width: 900px) {
+    .container .education__container {
+        width: 60%;
+    }
+}
+
+/* Media Queries for (phone devices) */
+
+@media screen and (max-width: 500px) {
+    .container .education__container {
+        width: var(--container-width-sm);
+    }
+    .course__review {
+        width: var(--container-width-sm);
+    }
+}
