@@ -1,6 +1,16 @@
 import React from "react";
 import "./portfolio.css";
 
+// import Swiper core and required modules
+import { Navigation, Pagination} from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 const dataProjects = [
   {
     id: 1,
@@ -49,28 +59,48 @@ const Portfolio = () => {
     <section id="portfolio">
       <h4>My Recent Work</h4>
       <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      <Swiper
+        className="container portfolio__container mySwiper"
+        slidesPerView={3}
+        spaceBetween={30}
+        slidesPerGroup={3}
+        loop={true}
+        loopFillGroupWithBlank={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+      >
         {dataProjects.map(({ id, image, altimg, title, github, demo }) => {
           return (
-            <article className="portfolio__item">
+            <SwiperSlide className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={altimg} />
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn" target="_blank"
-                            rel="noopener noreferrer">
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     GitHub
                   </a>
-                  <a href={demo} className="btn btn-primary" target="_blank"
-                            rel="noopener noreferrer">
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Live Demo
                   </a>
                 </div>
               </div>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
