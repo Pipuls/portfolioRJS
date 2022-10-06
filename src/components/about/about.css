@@ -1,3 +1,7 @@
+#about{
+    width: 60%;
+    margin: 0 auto;
+}
 section{
     padding-top: 8rem;
 }
@@ -68,6 +72,11 @@ section{
 /* Media Queries for (medium devices) */
 
 @media screen and (max-width: 900px) {
+    #about {
+        width: 100%;
+        margin: 0 auto 50rem;
+
+    }
     .about__container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -84,11 +93,13 @@ section{
 /* Media Queries for (phone devices) */
 
 @media screen and (max-width: 500px) {
+
     section{
         margin-top: 0;
+        margin-bottom: 140rem;
     }
     .about__me{
-        width: 65%;
+        width: 100%;
         margin: 0rem auto 3rem;
     }
     .about__cards {

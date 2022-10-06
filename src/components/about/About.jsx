@@ -38,18 +38,17 @@ const About = () => {
             </article>
           </div>
           <p>
-            Soy arquitecto urbanista, formandome en el desarrollo de nuevas
-            tecnologías. Actualmente en proceso de cambio profesional, orientado
-            al desarrollo Web, con especial interés en Front End, mi objetivo es
-            consolidarme dentro del mundo IT. Me motiva el progreso y la
-            capacitación constante. Me gusta aportar mis conocimientos para
-            encontrar resoluciones concretas a problemas reales. La iniciativa e
-            innovación siempre han formado parte de mi carrera profesional, por
-            lo que, trato de desarrollar una metodología de trabajo basada en la
-            comunicación, pensamiento critico y el trabajo en equipo. Considero
-            ésto de gran valor, para adaptarme a las necesidades que las
-            empresas modernas necesitan dadas las dinámicas cambiantes de los
-            tiempos actuales.
+          I am an urban architect, currently training in new technologies and 
+          working on a professional change, oriented
+            to Web development, with special interest in Front End. <br></br>
+            My goal is to consolidate myself within the IT world. I am motivated 
+            by progress and constant training. I like to contribute my knowledge 
+            to find concrete solutions to real problems. <br></br>
+            The initiative and innovation have always been part of my professional 
+            career, so I try to develop my work based on communication, critical 
+            thinking and teamwork. I Considered this a great value, to adapt myself 
+            to the needs that  modern companies has, specialy in actual times dynamics. 
+            .            
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

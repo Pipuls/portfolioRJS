@@ -38,6 +38,10 @@ width: 50%;
 /* Media Queries for (phone devices) */
 
 @media screen and (max-width: 500px) {
+    #education{
+        width: 95%;
+        margin: 0 auto;
+    }
     .container .education__container {
         width: var(--container-width-sm);
     }

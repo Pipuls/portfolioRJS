@@ -11,7 +11,7 @@
 }
 :root {
    --color-bg: #223032;
-   --color-bg-variant: #78aaa8d2;
+   --color-bg-variant: #78aaa8a9;
    --color-primary: #2c7ed6;
    --color-primary-variant: #2c7ed6cc;
    --color-secondary: #5d85c2;
@@ -44,7 +44,7 @@ body {
 
 /* General Styles */
 .container{
-    width: var(--container-whidth-lg);
+    /* width: var(--container-whidth-lg); */
     margin: 0 auto;
 }
 
@@ -126,6 +126,10 @@ img {
 /* Media Queries for (phone devices) */
 
 @media screen and (max-width: 600px) {
+    section {
+        margin-top: 0;
+        height: 100vh;
+    }
     .container {
         width: var(--container-whidth-sm);
     }
@@ -133,4 +137,5 @@ img {
     .section > h2 {
         margin-bottom: 2rem;
     }
+    
 }

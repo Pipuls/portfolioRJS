@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { BsInstagram, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
+import SocialIcons from "../assets/SocialIcons";
 
 const Footer = () => {
   return (
@@ -29,34 +29,7 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a
-          href="https://www.instagram.com/germanico_83"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsInstagram />
-        </a>
-        <a
-          href="https://twitter.com/ArqGermanRico"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsTwitter />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/arqgerm%C3%A1nrico/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          href="https://github.com/Pipuls"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <BsGithub />
-        </a>
+        <SocialIcons/>        
       </div>
       <div className="footer__copyright">
         <small>Germanico @ 2022. &copy; All rights reserved.</small>

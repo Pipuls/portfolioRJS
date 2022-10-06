@@ -31,8 +31,10 @@ footer a {
     gap: 1rem;
     margin-bottom: 1.5rem;
 }
-
-.footer__socials a {
+.footer__socials .social-content{
+    display: flex;
+}
+/* .footer__socials a {
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
@@ -45,7 +47,7 @@ footer a {
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
-}
+} */
 
 .footer__copyright {
     margin-bottom: 1.5rem;
@@ -55,6 +57,9 @@ footer a {
 /* Media Queries for (phone devices) */
 
 @media screen and (max-width: 500px) {
+    footer{
+margin-top: 0;
+    }
  .permalinks {
     flex-direction: column;
     gap: 1.5rem;

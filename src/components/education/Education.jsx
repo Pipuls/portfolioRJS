@@ -17,43 +17,42 @@ const dataEducation = [
     logo: "https://i.ibb.co/614sHpj/study-udemy.jpg",
     altlogo: "Institution Logo Udemy",
     name: "Udemy",
-    coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+    coursedetail: "React Js Basics to advanced. JSX, States React Modules, Render methods, Components. From static to dynamic pages",
   },
   {
     logo: "https://i.ibb.co/614sHpj/study-udemy.jpg",
     altlogo: "Institution Logo Udemy",
     name: "Udemy",
     coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+      "Front End Basics. HTML5, CSS, JavaScript, BootStrap. ",
   },
   {
     logo: "https://i.ibb.co/grWr1v5/study-ap.jpg",
-    altlogo: "Institution Logo Udemy",
+    altlogo: "Institution Argentina Programa",
     name: "Ministerio de Desarrollo Productivo",
     coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+      "Full Stack jr Web Development course. Front and Back end tools. Single page application, Dinamyc web, Object oriented programming, Database, Java tecnologies, Introduction to DevOps and Testing",
   },
   {
     logo: "https://i.ibb.co/grWr1v5/study-ap.jpg",
-    altlogo: "Institution Logo Udemy",
+    altlogo: "Institution Argentina Programa",
     name: "Ministerio de Desarrollo Productivo",
     coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+      "Introduction to programming. Basic knowledge and first steps to IT world. Fundamentals, imperative programming and object oriented programming.",
   },
   {
     logo: "https://i.ibb.co/1d6W75C/study-unc.jpg",
     altlogo: "Facultad de Arquitectura Urbanismo y Diseño",
-    name: "Udemy",
+    name: "Master's degree in urban planning ",
     coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+      "First year of the postgraduate course completed. UNC - Architecture Urbanism and Design University",
   },
   {
     logo: "https://i.ibb.co/1d6W75C/study-unc.jpg",
     altlogo: "Facultad de Arquitectura Urbanismo y Diseño",
-    name: "Udemy",
+    name: "Architect",
     coursedetail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores delectus eos officiis, non unde dolore harum inventore possimus atque minus sit, velit dolores ad et nobis dignissimos totam minima!",
+      "Degree course completed. UNC - Architecture Urbanism and Design University",
   },
 ];
 

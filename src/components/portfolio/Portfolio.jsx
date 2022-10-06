@@ -61,8 +61,27 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <Swiper
         className="container portfolio__container mySwiper"
-        slidesPerView={3}
-        spaceBetween={30}
+        breakpoints={
+          {
+            0:{
+              slidesPerView: 1,
+              spaceBetween: 10,
+              slidesPerGroup:1,
+            },
+            500:{
+              slidesPerView: 2,
+              spaceBetween: 20,
+              slidesPerGroup: 2,
+            },
+            900:{
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slidesPerGroup: 3,
+            },
+
+          }
+        }
+
         slidesPerGroup={3}
         loop={true}
         loopFillGroupWithBlank={true}
@@ -71,6 +90,7 @@ const Portfolio = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
+        
       >
         {dataProjects.map(({ id, image, altimg, title, github, demo }) => {
           return (
